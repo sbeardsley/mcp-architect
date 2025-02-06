@@ -95,7 +95,6 @@ the consequences for any action they deem in violation of this Code of Conduct:
 
 For any questions or concerns about this Code of Conduct, please contact:
 
-- Project maintainers at architect@modelcontextprotocol.ai
 - Or open an issue in the repository marked with the "Code of Conduct" label
 
 ## Attribution

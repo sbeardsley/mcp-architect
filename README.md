@@ -83,7 +83,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## Security
 
-Please report security vulnerabilities to architect@modelcontextprotocol.ai.
+Please report security vulnerabilities
 
 ## License
 
