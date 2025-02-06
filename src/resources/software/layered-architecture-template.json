@@ -1,0 +1,111 @@
+{
+  "id": "template-layered-arch-001",
+  "name": "N-Tier Layered Architecture Template",
+  "type": "template",
+  "domain": "software",
+  "content": {
+    "description": "A comprehensive template for implementing an N-tier layered architecture",
+    "layers": [
+      {
+        "name": "Presentation Layer",
+        "description": "Handles user interface and user interaction",
+        "responsibilities": [
+          "User interface components",
+          "User input validation",
+          "View models and controllers",
+          "API endpoints"
+        ],
+        "patterns": [
+          "MVC",
+          "MVVM",
+          "Front Controller"
+        ]
+      },
+      {
+        "name": "Business Layer",
+        "description": "Implements business logic and rules",
+        "responsibilities": [
+          "Business rules",
+          "Domain logic",
+          "Workflow processing",
+          "Service coordination"
+        ],
+        "patterns": [
+          "Domain Model",
+          "Service Layer",
+          "Business Facade"
+        ]
+      },
+      {
+        "name": "Data Access Layer",
+        "description": "Manages data persistence and retrieval",
+        "responsibilities": [
+          "Data access logic",
+          "Data mapping",
+          "CRUD operations",
+          "Transaction management"
+        ],
+        "patterns": [
+          "Repository",
+          "Unit of Work",
+          "Data Mapper"
+        ]
+      }
+    ],
+    "principles": [
+      "Separation of Concerns",
+      "High Cohesion",
+      "Loose Coupling",
+      "Don't Repeat Yourself (DRY)",
+      "Interface Segregation"
+    ],
+    "bestPractices": [
+      "Define clear interfaces between layers",
+      "Implement unidirectional dependencies",
+      "Use dependency injection",
+      "Apply SOLID principles",
+      "Implement proper exception handling"
+    ],
+    "considerations": {
+      "advantages": [
+        "Clear separation of concerns",
+        "Maintainable and testable code",
+        "Parallel development capability",
+        "Reusable components"
+      ],
+      "challenges": [
+        "Potential performance overhead",
+        "Risk of anemic domain model",
+        "Complex dependency management",
+        "Over-engineering for simple applications"
+      ]
+    },
+    "implementationSteps": [
+      {
+        "step": 1,
+        "title": "Define Layer Interfaces",
+        "description": "Define clear interfaces for each layer to establish contracts"
+      },
+      {
+        "step": 2,
+        "title": "Implement Core Domain",
+        "description": "Implement domain models and business logic"
+      },
+      {
+        "step": 3,
+        "title": "Build Data Access",
+        "description": "Implement data access components and repositories"
+      },
+      {
+        "step": 4,
+        "title": "Create Business Services",
+        "description": "Implement business services and workflows"
+      },
+      {
+        "step": 5,
+        "title": "Develop Presentation",
+        "description": "Build user interface components and controllers"
+      }
+    ]
+  }
+}
