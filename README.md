@@ -1,5 +1,7 @@
 # MCP Architect
 
+[![smithery badge](https://smithery.ai/badge/@squirrelogic/mcp-architect)](https://smithery.ai/server/@squirrelogic/mcp-architect)
+
 A Model Context Protocol server that provides comprehensive architectural expertise through specialized agents, resources, and tools.
 
 ## Features
@@ -33,6 +35,14 @@ A Model Context Protocol server that provides comprehensive architectural expert
   - Performing architectural analysis
 
 ## Getting Started
+
+### Installing via Smithery
+
+To install Architect for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@squirrelogic/mcp-architect):
+
+```bash
+npx -y @smithery/cli install @squirrelogic/mcp-architect --client claude
+```
 
 1. Install dependencies:
 
